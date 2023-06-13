@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
+}
+
+:root {
+	--mainColor: #29335c;
+	--clickColor: #C5C5C5;
+	--textColor: #eee;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	padding: 0 2rem;
+	background-color: var(--mainColor);
+	color: var(--textColor);
+}
+
+header .logo-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	font-size: 2.0rem;
+}
+
+header .logo-btn a {
+	color: var(--textColor);
+}
+
+nav a {
+	margin: 0 1rem;
+	color: var(--textColor);
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: var(--clickColor);
+}
+
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+header div, nav {
+	display: flex;
+	align-items: center;
+}
+
+.footer {
+	background-color: var(--mainColor);
+	height: 130px;
+	color: var(--textColor);
+}
+
+.footer-menu {
+	justify-content: right;
+	margin-right: 8%;
+}
+
+.footer-menu a {
+	cursor: pointer;
+	background: transparent;
+	margin-top: 40px;
+	font-size: 1.8rem;
+}
+
+.footer-text {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 13px;
+}
+
+.profilePic {
+    display: block;
+    margin: 5% auto 3% auto;
+    width: 18%; 
+    min-width: 200px;
+}
+
+.myName {
+    text-align: center;
+    margin: 0;
+}
+
+.biography {
+    margin: 0 auto 0 auto;
+    padding: 5% 15% 5% 15%;
+}
+
+.items {
+    margin: 5% 17%;
+}
+
+.education {
+	display: grid;
+	grid-template-columns: 40% 60%;
+}
+
+.education-group {
+	position: relative;
+}
+
+.image1 {
+    width: 65%;
+	position: absolute;
+	right: 20px;
+    bottom: 0;
+	min-width: 300px;
+}
+
+.organization {
+    color: gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.text{
+    line-height: 2.0;
+}
+
+.listItems {
+    padding-left: 40px;
+}
+
+.experience {
+	display: flex;
+	flex-direction: column;
+	row-gap: 50px;
+}
+
+.work {
+	display: grid;
+	grid-template-columns: 300px auto;
+}
+
+.image {
+	text-align: center;
+  	display: flex;
+  	align-items: center;
+}
+
+.details {
+	color:#454444;
+}
+
+.image2 {
+	width: 100%;
+}
+
+.projects {
+	display: grid;
+	grid-template-columns: auto 350px;
+}
+
+.project {
+	position: relative;
+	/* border: 1px solid black; */
+}
+
+.image3 {
+	width: 100%;
+	position: absolute;
+	right: 0;
+    top: 0;
+}
+
+.description {
+    margin-top: 2%;
+    margin-right: 30%;
+    line-height: 2.0;
+}
+
+form {
+	background-color: #eee;
+	padding: 2vw 4vw;
+	border-radius: 10px ;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.form-group input {
+	width: 100%;
+	padding: 5px;
+	font-size: 16px;
+}
+
+.form-group textarea {
+	width: 100%;
+	height: 100px;
+	padding: 5px;
+	font-size: 16px;
+}
+
+.form-group button {
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: var(--mainColor);
+	border: 1px solid var(--mainColor);
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.form-group button:hover {
+	color: var(--mainColor);
+	border: 1px solid var(--mainColor);
+	background-color: white;
+}
+
+.info-group {
+	margin-bottom: 50px;;
+}
+
+@media only screen and (max-width: 1024px) {
+	header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	header nav {
+		position: fixed;
+		top: -100vh;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: var(--mainColor);
+		transition: 1s;
+		z-index: 1;
+	}
+
+	header .responsive_nav {
+		transform: translateY(100vh);
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav a {
+		font-size: 1.5rem;
+	}
+
+	.footer-menu {
+		margin: 0;
+		justify-content: center;
+	}
+
+	.education {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.education-group {
+		position: relative;
+		border: none;
+		padding: 10px 0;
+	}
+	
+	.image1 {
+		position: relative;
+		top: 20px;
+		left: 30px;
+		width: 300px;
+	}
+
+	.work {
+		display: flex;
+		flex-direction: column-reverse;
+		row-gap: 40px;
+	}
+	
+	.image {
+		display: flex;
+  		justify-content: center;
+	}
+
+	.image2 {
+		width: 300px;
+	} 
+
+	.projects {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.project {
+		position: relative;
+		padding: 10px 0;
+	}
+	
+	.image3 {
+		position: relative;
+		top: 20px;
+		left: 0;
+		width: 350px;
+	}
+	
+	.description {
+		margin-top: 2%;
+		margin-right: 20%;
+		line-height: 2.0;
+	}
+
+}
