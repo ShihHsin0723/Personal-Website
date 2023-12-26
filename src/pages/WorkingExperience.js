@@ -10,7 +10,7 @@ function WorkingExperience() {
             <div className="experience">
             <div className="work">
               <div className="image">
-                <img className="image2" src="/warwick.png"></img>
+                <img className="image2" src="/warwick.png" alt="internship"></img>
               </div>
               <div>
                 <h1 className="title">TEAMWORK 2023 VIRTUAL INTERNATIONAL INTERN</h1>
@@ -19,14 +19,15 @@ function WorkingExperience() {
                 <br />
                 <ul className="listItems">
                   <li>Worked with a multidisciplinary team of students from around the world</li>
-                  <li>Built the project provided by XX organization</li>
+                  <li>Conducted a thorough analysis of the current MQTT over QUIC protocol, identifying areas of improvement</li>
+                  <li>Tested and ran benchmarks against the existing MQTT protocol using Intel's AIxBoard</li>
                 </ul>
               </div>
             </div>
 
             <div className="work">
               <div className="image">
-                <img className="image2" src="/codingAPE.png"></img>
+                <img className="image2" src="/codingAPE.png" alt="coding"></img>
               </div>
               <div>
                 <h1 className="title">CODING CAMP TEACHING ASSISTANT</h1>
@@ -42,7 +43,7 @@ function WorkingExperience() {
 
             <div className="work">
               <div className="image">
-                <img className="image2" src="/tutor.png"></img>
+                <img className="image2" src="/tutor.png" alt="private"></img>
               </div>
               <div>
                 <h1 className="title">ENGLISH TUTOR</h1>
@@ -58,7 +59,7 @@ function WorkingExperience() {
 
             <div className="work">
               <div className="image">
-                <img className="image2" src="/huaxing.png"></img>
+                <img className="image2" src="/huaxing.png" alt="academy"></img>
               </div>
               <div>
                 <h1 className="title">STUDENT RECRUITMENT ASSISTANT</h1>

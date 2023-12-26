@@ -18,11 +18,11 @@ function Projects() {
                 </p>
               </div>
               <div className="project">
-                <img className="image3" src="/films.png"></img>
+                <img className="image3" src="/films.png" alt="project"></img>
               </div>
             </div>
             <br /><br />
-            <h3>For more details, please go to: <a href="https://github.com/PhoebeChuang0723">github</a></h3>
+            <h3>For more details, please go to: <a href="https://github.com/PhoebeChuang0723" target="_blank" rel="noreferrer">github</a></h3>
             <br /><br /><br /><br /><br /><br />
           </div>
         </MainLayout>

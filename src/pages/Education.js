@@ -26,7 +26,7 @@ function Education() {
                             </ul>
                     </div>
                     <div className="education-group">
-                        <img className="image1" src="/Trinity.jpeg"></img>
+                        <img className="image1" src="/Trinity.jpeg" alt='college'></img>
                     </div>
                 </div>
                 
@@ -50,7 +50,7 @@ function Education() {
                             </ul>
                     </div>
                     <div className="education-group">
-                        <img className="image1" src="/HIS.jpeg"></img>
+                        <img className="image1" src="/HIS.jpeg" alt="highschool"></img>
                     </div>
                 </div>
                 
@@ -70,7 +70,7 @@ function Education() {
                             </ul>
                     </div>
                     <div className="education-group">
-                        <img className="image1" src="/NSHS.jpeg"></img>
+                        <img className="image1" src="/NSHS.jpeg" alt="highschool1"></img>
                     </div>
                 </div>
                 <br /><br />
