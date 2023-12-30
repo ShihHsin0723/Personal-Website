@@ -420,7 +420,7 @@ nav.navbar .navbar-toggler:focus {
 }
   
 .projects .project-btn:hover {
-	background-color: #f1e9e1;
+	background-color: #f9f4ef;
 	border: 1px solid #5E5959; /* Modify border on hover */
 	color: #5E5959;
 }
