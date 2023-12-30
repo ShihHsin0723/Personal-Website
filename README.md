@@ -10,7 +10,7 @@ The link to the website: https://main--shiny-travesseiro-64dd04.netlify.app/
 **Icons**
 - FontAwesome (https://fontawesome.com/)
 
-**Stock Photos and Graphics**
+**Photos and Graphics**
 - Unsplash.com (https://unsplash.com/)
 
 **Deployment**
