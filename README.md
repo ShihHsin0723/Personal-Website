@@ -1,4 +1,4 @@
-# Shih-Hsin (Phoebe)'s Personal Website 
+# Personal Website 
 
 A dynamic and interactive personal website built from the ReactJS library and Bootstrap framework to showcase my experience, skills, and projects.
 The link to the website: https://shih-hsin-chuang.netlify.app
