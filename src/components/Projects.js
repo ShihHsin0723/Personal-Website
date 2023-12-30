@@ -45,7 +45,7 @@ function Projects() {
             <Card.Body>
               <Card.Title className='project-title'>Films for You</Card.Title>
               <Card.Text>
-                A movie finder that generates personalized movie recommendations with specified movie genres and has the option for writing movie reviews.
+                A movie finder that provides personalized movie recommendations based on specified genres and offers the option to write movie reviews.
               </Card.Text>
               <Button href="https://github.com/ShihHsin0723/Films-for-You" target='_blank' className='project-btn'>More Details</Button>
               <Card.Text className='project-skills'>Python · Tkinter · pandas</Card.Text>
