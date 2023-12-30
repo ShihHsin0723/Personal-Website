@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import films from '../images/films.png'
-import Spotify from '../images/Spotify2.png'
+import Spotify from '../images/Spotify.png'
 import website from '../images/website.png'
 
 function Projects() {
