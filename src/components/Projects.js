@@ -36,7 +36,7 @@ function Projects() {
                 A dynamic and interactive personal website built from ReactJS library and Bootstrap framework to showcase my experience, skills, and projects.
               </Card.Text>
               <Button href="https://github.com/ShihHsin0723/Personal-Website" target='_blank' className='project-btn'>More Details</Button>
-              <Card.Text className='project-skills'>HTML/CSS · ReactJs · Boostrap</Card.Text>
+              <Card.Text className='project-skills'>HTML/CSS · ReactJS · Bootstrap</Card.Text>
             </Card.Body>
           </Card>
 
