@@ -1,11 +1,25 @@
 import React from 'react'
-import AboutMe from './pages/AboutMe';
+import NavBar from './components/Navbar';
+import Home from './components/Home';
+import About from './components/About';
+import Education from './components/Education';
+import Experience from './components/Experience';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <React.Fragment>
-      <AboutMe />
-    </React.Fragment>
+    <div className='App'>
+      <NavBar />
+      <Home />
+      <About />
+      <Education />
+      <Experience />
+      <Projects />
+      <Contact />
+      <Footer />
+    </div>
   );
 }
 

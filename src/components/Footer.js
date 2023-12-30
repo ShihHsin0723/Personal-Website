@@ -1,20 +1,50 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
-import "../styles/main.css"
-import { FaLinkedin, FaFacebook, FaInstagram, FaDiscord } from "react-icons/fa";
+import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import logo from '../images/footerLogo.png';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../styles/main.css";
 
-function Footer() {
+const year = new Date().getFullYear();
+
+const Footer = () => {
   return (
-    <div class="footer">
-        <nav class="footer-menu">
-            <Link to="https://www.linkedin.com/in/shih-hsin-chuang/" target="_blank"><FaLinkedin /></Link>
-            <Link to="https://discord.gg/fw86keGk" target="_blank"><FaDiscord/></Link>
-            <Link to="https://www.facebook.com/profile.php?id=100015488111213" target="_blank"><FaFacebook /></Link>
-            <Link to="https://www.instagram.com/phoebe.0723/" target="_blank"><FaInstagram/></Link>
-        </nav>
-        <div class="footer-text">Copyright © 2023 SHIH-HSIN CHUANG All Rights Reserved.</div>
-    </div>
-  )
-}
+    <footer className="footer">
+      <Container>
+        <Row className="align-items-center justify-content-center">
+          <Col md={12} lg={1} className="text-center mb-3 mb-lg-0">
+            <a href="#home">
+              <img src={logo} alt="Logo" className="footer-logo" />
+            </a>
+          </Col>
 
-export default Footer
+          <Col md={12} lg={11} className="d-flex justify-content-center justify-content-lg-end">
+            <div className="footer">
+              <a href='https://github.com/ShihHsin0723' target="_blank" rel="noopener noreferrer">
+                <span><FontAwesomeIcon icon={faGithub} /></span>
+              </a>
+              <a href='mailto:shihhsinchuang@gmail.com'>
+                <span><FontAwesomeIcon icon={faEnvelope} /></span>
+              </a>
+              <a href='https://www.linkedin.com/in/shih-hsin-chuang/' target="_blank" rel="noopener noreferrer">
+                <span><FontAwesomeIcon icon={faLinkedinIn} /></span>
+              </a>
+            </div>
+          </Col>
+        </Row>
+
+        <Row className="justify-content-center">
+          <Col md={12}>
+            <p className="text-center copyright-text">Copyright © {year} SHIH-HSIN CHUANG. All Rights Reserved.</p>
+          </Col>
+        </Row>
+      </Container>
+    </footer>
+  );
+};
+
+export default Footer;
