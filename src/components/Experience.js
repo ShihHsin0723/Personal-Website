@@ -44,8 +44,8 @@ function Experience() {
               <h2>Teamwork Global · University of Warwick</h2>
               <h6>Remote</h6>
               <ul className='listItems'>
-                <li>Conducted analysis of the characteristics, performance, and suitability of MQTT over QUIC protocols through testing
-and benchmarking under various packet-dropping rates to simulate different network environments</li>
+                <li>Analyzed the characteristics of MQTT over QUIC protocols through testing and benchmarking using virtual machines</li>
+                <li>Simulated network environments with over 20 distinct packet-dropping conditions to evaluate the protocol’s performance</li>
                 <li>Demonstrated the functionality and working of MQTT and QUIC on Intel AIXBoard for IoV scenario</li>
               </ul>
             </div>
@@ -66,6 +66,7 @@ and benchmarking under various packet-dropping rates to simulate different netwo
             <ul className="listItems">
                 <li>Assisted adults with formal writing essential for the workplace, guiding structure, clarity, and effective communication</li>
                 <li>Practiced English conversation and writing mechanics with children in an engaging manner</li>
+                <li>Prepared students for TOEIC and GEPT exams</li>
             </ul>
             </div>
         </Col>
