@@ -79,7 +79,7 @@ function About() {
                       <FontAwesomeIcon icon={faCircle} className='solid-dot' />
                       <FontAwesomeIcon icon={faCircle} className='solid-dot' />
                       <FontAwesomeIcon icon={faCircle} className='solid-dot' />
-                      <FontAwesomeIcon icon={faCircle} className='light-dot' />
+                      <FontAwesomeIcon icon={faCircle} className='solid-dot' />
                       <FontAwesomeIcon icon={faCircle} className='light-dot' />
                     </span>
                   </li>

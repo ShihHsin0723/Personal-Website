@@ -24,7 +24,7 @@ function Education() {
             <div className='right-block'>
               <h2>University of Toronto - Trinity College</h2>
               <h6>Toronto, Canada</h6>
-              <p>cGPA: 4.0/4.0 &nbsp; | &nbsp;  Dean’s List Scholar & Chancellor’s Scholarship</p>
+              <p>cGPA: 3.98/4.00 &nbsp; | &nbsp;  Dean’s List Scholar & Chancellor’s Scholarship</p>
               <ul className='listItems'>
                 <li>Preparation for Research through Immersion, Skills, and Mentorship (PRISM)</li>
                 <li>Learn AI Program</li>
@@ -48,7 +48,7 @@ function Education() {
             <div className='right-block'>
             <h2>Hsinchu International School</h2>
             <h6>Hsinchu, Taiwan</h6>
-            <p>GPA:4.0/4.0 &nbsp; | &nbsp; Scored 5/5 on 10 AP Exams</p>
+            <p>GPA:4.00/4.00 &nbsp; | &nbsp; Scored 5/5 on 10 AP Exams</p>
             <ul className="listItems">
                 <li>Mathematics Competition Team</li>
                 <li>Model United Nations (Head of Administration)</li>
