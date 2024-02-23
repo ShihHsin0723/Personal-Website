@@ -61,7 +61,7 @@ function Experience() {
         </Col>
         <Col className='event' lg={7}>
             <div className='right-block'>
-            <h2>Community Tutoring · Freelance</h2>
+            <h2>Community Tutoring</h2>
             <h6>Hsinchu, Taiwan</h6>
             <ul className="listItems">
                 <li>Assisted adults with formal writing essential for the workplace, guiding structure, clarity, and effective communication</li>
@@ -76,7 +76,7 @@ function Experience() {
         <Col lg={4} className="title text-center">
             <div className='left-block'>
             <h3>Coding Camp Teaching Instructor</h3>
-            <h6>Jul. 2021 – Aug. 2021</h6>
+            <h6>Jul. 2022 – Aug. 2022</h6>
             </div>
         </Col>
         <Col className='event' lg={7}>
