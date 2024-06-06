@@ -21,7 +21,7 @@ function Experience() {
           <Col className="event" lg={7}>
             <div className="right-block">
               <h2>Crypto-Arsenal</h2>
-              <h6>Hybrid</h6>
+              <h6>Hybrid (Taipei, Taiwan)</h6>
               <ul className="listItems">
                 <li>
                   Implement Figma designs from UI/UX team, conduct code reviews,
