@@ -24,17 +24,21 @@ function Experience() {
               <h6>Hybrid (Taipei, Taiwan)</h6>
               <ul className="listItems">
                 <li>
-                  Implement Figma designs from UI/UX team, conduct code reviews,
-                  and participate in weekly Scrum meetings
+                  Contribute to the deployment of ZKE—ranked among the top 100
+                  cryptocurrency exchanges
                 </li>
                 <li>
-                  Utilize GraphQL to fetch data from databases and display
-                  developed components with mock data through Storybook
+                  Developed dynamic UI components by building queries/mutations,
+                  performing unit testing, and implementing frontend design
+                  utilizing Typescript, Node.js, GraphQL, Tailwind, and React
                 </li>
                 <li>
-                  Have developed and optimized 3 core Marketplace/Portfolio
-                  components and improved website usability by integrating the
-                  React Aria library
+                  Introduce various React-Aria and React-Resizable components to
+                  optimize component performance and extensibility
+                </li>
+                <li>
+                  Actively contribute to the team’s growth by conducting code
+                  reviews and participating in Scrum meetings
                 </li>
               </ul>
             </div>
